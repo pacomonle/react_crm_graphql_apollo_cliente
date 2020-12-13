@@ -1,3 +1,26 @@
+# npx react-next-app crmcliente
+
+# normalize para normalizar estilos en todos los navegadores
+<link href="https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css" rel="stylesheet" crossorigin="anonymous"  >
+
+# tailwind -> similar a bootstrap
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+# npm i formik yup
+libreria react formularios formik y validacion formularios yup
+
+# npm i @apollo/client
+instalando apollo client para conectar con el backende de apollo server
+# npm i node-fetch
+
+# npm i graphql
+
+# npm i apollo-link-context
+modificar headers via context para tenerlos en toda la app
+
+# npm install sweetalert2
+sistema de alertas
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
