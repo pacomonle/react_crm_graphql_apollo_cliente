@@ -82,10 +82,10 @@ const Cliente = ({cliente}) => {
 
     const editarCliente = (id) => {
         console.log('id', id)
-      /*   Router.push({
+        Router.push({
             pathname: "/editarcliente/[id]",
             query: { id }
-        }) */
+        }) 
     } 
 
     return ( 

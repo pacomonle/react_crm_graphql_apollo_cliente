@@ -23,7 +23,7 @@ const Header = () => {
     // query de apollo
     const { data, loading, error} = useQuery(OBTENER_USUARIO);
 
-   //  console.log('user' , data)
+    // console.log('user' , data)
     // console.log(loading)
     // console.log(error)
 
@@ -35,7 +35,7 @@ const Header = () => {
     } 
 
     // Si no hay informacion
-    if(!data) {
+    if(data.obtenerUsuario === null) {
         return router.push('/login');
     }
 

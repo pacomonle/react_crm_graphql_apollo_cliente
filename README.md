@@ -21,6 +21,10 @@ modificar headers via context para tenerlos en toda la app
 # npm install sweetalert2
 sistema de alertas
 
+# npm i react-select
+select - single y multiple
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

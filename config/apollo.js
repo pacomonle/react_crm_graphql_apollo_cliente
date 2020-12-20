@@ -15,7 +15,7 @@ const httpLink = createHttpLink({
     // Leer el storage almacenado
     const token = localStorage.getItem('token');
   //  console.log('token' , token);
-   console.log('apollo')
+  
     return  {
         headers: {
             ...headers,
