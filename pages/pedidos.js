@@ -30,7 +30,7 @@ const OBTENER_PEDIDOS = gql`
 const Pedidos = () => {
 
   const { data, loading, error} = useQuery(OBTENER_PEDIDOS);
-  console.log(data)
+ // console.log(data)
   if(loading) return 'Cargando...';
 
  // const { obtenerPedidosVendedor } = data;

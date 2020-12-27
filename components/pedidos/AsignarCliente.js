@@ -37,8 +37,8 @@ const AsignarCliente = () => {
         
     }, [cliente])
 
-    const seleccionarCliente = clientes => {
-        setCliente(clientes);
+    const seleccionarCliente = cliente => {
+        setCliente(cliente);
     }
 
     // Resultados de la consulta
